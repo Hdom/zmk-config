@@ -4,7 +4,6 @@ name: RGBKB Zen Rev2
 type: shield
 url: https://rgbkb.gitbook.io/rgbkb-build-guides/zen2-build-guide-wip/introduction
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
 siblings:
