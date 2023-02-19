@@ -95,7 +95,7 @@
 //                                        '--------------''-------------'
 //
                         bindings = <
-   &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6                               &kp F7   &kp F8    &kp F9    &kp F10    &kp F11      &kp F12
+   &kp GRAVE       &kp F2          &kp F3          &kp F4          &kp F5          &kp F6                               &kp F7   &kp F8    &kp F9    &kp F10    &kp F11      &kp F12
    &rgb_ug RGB_TOG &rgb_ug RGB_SAI &rgb_ug RGB_SAD &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_EFF                      &kp LBKT &kp RBKT  &kp INS   &kp PG_UP  &kp UP       &kp PG_DN 
    &reset          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_EFR                      &kp LBRC &kp RBRC  &kp HOME  &kp LEFT   &kp DOWN     &reset 
    &dbreset        &bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &out OUT_TOG    &kp PRCNT       &kp CARET   &kp AMPS &kp BSLH &kp TILDE &kp UNDER &kp C_PLAY &bt BT_CLR   &dbreset  
