@@ -7,6 +7,7 @@ requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
+  - display
 siblings:
   - rgbkb_zen_rev2_left
   - rgbkb_zen_rev2_right
