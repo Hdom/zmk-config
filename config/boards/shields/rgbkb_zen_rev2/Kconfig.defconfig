@@ -20,9 +20,8 @@ config ZMK_RGB_UNDERGLOW
 	select WS2812_STRIP
 	select SPI
 
-# config ZMK_DISPLAY
-	
-# if ZMK_DISPLAY
+config ZMK_DISPLAY
+	default y
 
 config SSD1306
 	default y
@@ -30,12 +29,11 @@ config SSD1306
 config I2C
 	default y
 
-config SSD1306_REVERSE_MODE
+config SPI
 	default y
 
-# endif # ZMK_DISPLAY
-
-# if LVGL
+config SSD1306_REVERSE_MODE
+	default y
 
 config LVGL_HOR_RES_MAX
 	default 128
@@ -55,7 +53,5 @@ config LVGL_BITS_PER_PIXEL
 choice LVGL_COLOR_DEPTH
 	default LVGL_COLOR_DEPTH_1
 endchoice
-
-# endif # LVGL
 
 endif # SHIELD_RGBKB_ZEN_REV2_LEFT || SHIELD_RGBKB_ZEN_REV2_RIGHT
